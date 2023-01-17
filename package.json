@@ -1,6 +1,7 @@
 {
 	"name": "@johnitvn/livecv",
 	"version": "0.0.0",
+	"description": "My CV and is an open source for online cv base on angular",
 	"scripts": {
 		"prepare": "husky install",
 		"ng": "ng",

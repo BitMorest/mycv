@@ -1,0 +1,14 @@
+@import '../scss/mixins';
+
+.body-container {
+	max-width: 988px !important;
+
+	.sidebar {
+		flex-basis: 282px;
+		@include get-theme-color-property(background, primary, darker);
+	}
+
+	.main {
+		background-color: rgba(0, 10, 0, 0.078);
+	}
+}
