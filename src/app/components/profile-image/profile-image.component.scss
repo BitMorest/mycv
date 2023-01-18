@@ -1,11 +1,10 @@
-@use '@angular/material' as mat;
 @import '../../../scss/mixins';
 
 :host {
 	width: 100%;
 	aspect-ratio: 1/1;
 	display: flex;
-	background-color: rgba(0, 0, 0, 0.25);
+	@include get-theme-color-property(background, primary, darker);
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;

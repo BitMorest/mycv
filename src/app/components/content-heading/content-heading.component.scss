@@ -1,0 +1,17 @@
+@import '../../../scss/mixins';
+
+:host {
+	margin-top: 48px;
+}
+
+.icon {
+	flex-basis: 2rem;
+	aspect-ratio: 1/1;
+	@include get-theme-color-property(background, primary);
+	color: white;
+	border-radius: 4px;
+}
+
+h2 {
+	font-size: 1.2rem;
+}

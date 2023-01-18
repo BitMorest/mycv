@@ -13,10 +13,6 @@
 	// Get the required color palette from the color-config.
 	$light-color-palette: map.get($light-color-config, $color);
 
-	@debug $light-color-config;
-	//  @debug $light-color-palette;
-	@debug $color;
-
 	// Get the color config from the theme.
 	$dark-color-config: mat.get-color-config($dark-theme);
 	// Get the required color palette from the color-config.

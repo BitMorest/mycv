@@ -4,11 +4,16 @@
 	max-width: 988px !important;
 
 	.sidebar {
-		flex-basis: 282px;
-		@include get-theme-color-property(background, primary, darker);
+		flex-basis: 368px;
+		@include get-theme-color-property(background, primary);
 	}
 
-	.main {
+	.main-content {
 		background-color: rgba(0, 10, 0, 0.078);
+
+		> .container {
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
 	}
 }

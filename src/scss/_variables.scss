@@ -1,6 +1,6 @@
 @use '@angular/material' as mat;
 
-$light-primary-color: mat.define-palette(mat.$indigo-palette, 500);
+$light-primary-color: mat.define-palette(mat.$green-palette, 500);
 $light-accent-color: mat.define-palette(
 	mat.$blue-grey-palette,
 	A200,
